@@ -1,0 +1,14 @@
+.example1 {
+    width: 300px;
+    background-color: yellow;
+}
+.example2 {
+    width: 50%;
+    height: 200px;
+    padding: 25px;
+    background-color: aqua;
+}
+.example3 {
+  width: inherit;
+ 
+}

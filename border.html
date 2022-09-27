@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border style sheets</title>
+    <link href="border.css" rel="stylesheet"/>
+    <Style>
+        .dotted{
+    border-style:dotted;
+    border-width: 5px;
+    border-color: aqua;
+     border: 5px dotted blue;  
+     border-radius: 10px;  
+     margin-bottom: 60px;   
+}
+.dashed{
+    border-style: dashed;
+    border-width: thick;
+    border-color: rgb(146, 228, 15);
+    margin-left: 50px;
+    
+}
+.solid{
+    border-style: solid;
+    border-width:25px 10px 4px 35px;
+    background-color:rgb(149, 123, 219) ;
+    margin-right: 40px;
+}
+.double{
+    border-style: double;
+    border-width: 15px;
+    background-color: blueviolet;
+    margin: auto;
+    width: 100px;
+}
+.mix{
+    border-style: dashed dotted solid double;
+    border-width: medium;
+    background-color: aquamarine;
+    border-radius: 8px;
+    margin: 25px 50px 75px 100px;
+}
+    </Style>
+</head>
+<body>
+    <p class="dotted">
+        This is dotted border
+    </p>
+    <p class="dashed">This is dashed border</p>
+    <p class="solid">This is solid border</p>
+    <p class="double">Double border</p>
+    <p class="mix">Mix border</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+header,
+div {
+    font-size: larger;
+}
+* {
+    text-align: center;
+    color: aquamarine;
+    background-color: rgb(120, 165, 42);
+    opacity: 1.0;
+    background-image: url(cartoon.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.large {
+    font-size: large;
+}
+.medium {
+    font-size: medium;
+}
+.small {
+    font-size: small;
+    background-color: white;
+}
+.italic {
+    font-style: italic;
+
+}
+.centered {
+    text-align: center;
+}
+/*color black backgrond aqua*/
+#first {
+    color: brown;
+    background-color: aqua;
+}
+#second {
+    background-color: blueviolet;
+}

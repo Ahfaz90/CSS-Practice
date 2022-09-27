@@ -1,0 +1,25 @@
+.dotted{
+    border-style:dotted;
+    border-width: 5px;
+    border-color: aqua;
+}
+.dashed{
+    border-style: dashed;
+    border-width: thick;
+    border-color: rgb(146, 228, 15)
+}
+.solid{
+    border-style: solid;
+    border-width:25px 10px 4px 35px;
+    background-color:rgb(149, 123, 219) ;
+}
+.double{
+    border-style: double;
+    border-width: 15px;
+    background-color: blueviolet;
+}
+.mix{
+    border-style: dashed dotted solid double;
+    border-width: medium;
+    background-color: darkgreen greenyellow red blueviolet;
+}
